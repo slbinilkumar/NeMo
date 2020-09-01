@@ -16,7 +16,7 @@
 
 from transformers import BertTokenizer as HF_BERT_TOKENIZER
 
-from nemo.collections.common.tokenizers import HuggingFaceTokenizer
+from nemo.collections.common.tokenizers.huggingface_tokenizer import HuggingFaceTokenizer
 
 __all__ = ['BERTTokenizer']
 
